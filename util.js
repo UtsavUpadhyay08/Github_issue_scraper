@@ -5,6 +5,9 @@ function geturl(url,funname,path){
         if(error){
             console.log(error);
         }
+        else if(response.statusCode==404){
+            console.log("page not found");
+        }
         else{
             funname(body,path);
         }
