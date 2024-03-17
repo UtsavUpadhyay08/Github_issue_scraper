@@ -4,7 +4,9 @@ const path=require('path')
 const fs=require('fs');
 
 const dir=path.join(__dirname,"topics");
-
+if(!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+}
 const url="https://github.com/topics";
 geturl(url,extractlink,dir);
 
