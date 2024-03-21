@@ -20,5 +20,5 @@ node main.js
 ```
 
 ## Usage
-1. Navigate to the directory where you cloned the GitHub Scraper repository.
-2. The scraper will generate a 'topics' folder in the base directory if it doesn't exist already. Inside this folder, it will create subfolders for each specified topic. Within each topic folder, JSON files containing issue data for each repository will be stored.
+1. The scraper will generate a 'topics' folder in the base directory if it doesn't exist already. Inside this folder, it will create subfolders for each specified topic.
+2. Within each topic folder, JSON/PDF files containing issue data for each repository will be stored.
